@@ -1,3 +1,21 @@
+
+
 form{
-    
+    width: 50%;
+    margin: auto;
+
+}
+.star{
+    color: red;
+
+}
+.homepage{
+    height: 100vh;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+.img {
+    border-radius: 50%;
 }

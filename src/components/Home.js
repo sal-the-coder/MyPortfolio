@@ -3,11 +3,11 @@ import andrew from './Images/andrew.jpg'
 
 function Home() {
   return (
-    <div id = 'home'>
-        <img src={andrew} alt='my picture' height="200px" width ="200px"/>
+    <div id = 'home' className='homepage'>
+        <img src={andrew} alt='my picture' height="200px" width ="200px" className='img'/>
         <h3>Hi There, I am Andrew</h3>
         <h4>A Software Developer</h4>
-        <div>
+        <div className='languages'>
             <h1>Programming Languages</h1>
             <ul>
                 <li><a href='#'>Javascript</a></li>

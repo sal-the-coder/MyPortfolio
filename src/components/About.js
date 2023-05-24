@@ -3,7 +3,7 @@ import andrew from './Images/andrew.jpg'
 
 function About() {
   return (
-    <div id ='about'>
+    <div id ='about' className="">
       <h1>About</h1>
       <img src={andrew} alt='my picture' height="200px" width ="200px"/>
       <p>
